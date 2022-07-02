@@ -10,12 +10,28 @@
 		D2E9B3A5287071F400A0ABFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3A4287071F400A0ABFB /* AppDelegate.swift */; };
 		D2E9B3A7287071F400A0ABFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3A6287071F400A0ABFB /* SceneDelegate.swift */; };
 		D2E9B3A9287071F400A0ABFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3A8287071F400A0ABFB /* ViewController.swift */; };
-		D2E9B3AC287071F400A0ABFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E9B3AA287071F400A0ABFB /* Main.storyboard */; };
 		D2E9B3AE287071F400A0ABFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E9B3AD287071F400A0ABFB /* Assets.xcassets */; };
 		D2E9B3B1287071F500A0ABFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E9B3AF287071F500A0ABFB /* LaunchScreen.storyboard */; };
 		D2E9B3BC287071F500A0ABFB /* AtomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3BB287071F500A0ABFB /* AtomTests.swift */; };
 		D2E9B3C6287071F500A0ABFB /* AtomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3C5287071F500A0ABFB /* AtomUITests.swift */; };
 		D2E9B3C8287071F500A0ABFB /* AtomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3C7287071F500A0ABFB /* AtomUITestsLaunchTests.swift */; };
+		D2E9B3E3287074F800A0ABFB /* ThemePickerPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3D5287074F800A0ABFB /* ThemePickerPreviewCell.swift */; };
+		D2E9B3E4287074F800A0ABFB /* ThemePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3D6287074F800A0ABFB /* ThemePickerViewController.swift */; };
+		D2E9B3E5287074F800A0ABFB /* ThemeSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3D8287074F800A0ABFB /* ThemeSetting.swift */; };
+		D2E9B3E6287074F800A0ABFB /* CodeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3D9287074F800A0ABFB /* CodeSample.swift */; };
+		D2E9B3E7287074F800A0ABFB /* TextView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3DA287074F800A0ABFB /* TextView+Helpers.swift */; };
+		D2E9B3E8287074F800A0ABFB /* BasicCharacterPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3DB287074F800A0ABFB /* BasicCharacterPair.swift */; };
+		D2E9B3E9287074F800A0ABFB /* UserDefaults+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3DC287074F800A0ABFB /* UserDefaults+Helpers.swift */; };
+		D2E9B3EA287074F800A0ABFB /* MarkDownTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3DE287074F800A0ABFB /* MarkDownTheme.swift */; };
+		D2E9B3EB287074F800A0ABFB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3E0287074F800A0ABFB /* MainViewController.swift */; };
+		D2E9B3EC287074F800A0ABFB /* KeyboardToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3E1287074F800A0ABFB /* KeyboardToolsView.swift */; };
+		D2E9B3ED287074F800A0ABFB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3E2287074F800A0ABFB /* MainView.swift */; };
+		D2E9B3F02870754F00A0ABFB /* Runestone in Frameworks */ = {isa = PBXBuildFile; productRef = D2E9B3EF2870754F00A0ABFB /* Runestone */; };
+		D2E9B3F32870757600A0ABFB /* TreeSitterMarkdown in Frameworks */ = {isa = PBXBuildFile; productRef = D2E9B3F22870757600A0ABFB /* TreeSitterMarkdown */; };
+		D2E9B3F6287075B900A0ABFB /* HighlightName.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3F4287075B500A0ABFB /* HighlightName.swift */; };
+		D2E9B3F7287075B900A0ABFB /* EditorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3F5287075B800A0ABFB /* EditorTheme.swift */; };
+		D2E9B3FD287077AD00A0ABFB /* TreeSitterLanguage+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9B3FC287077AD00A0ABFB /* TreeSitterLanguage+Helpers.swift */; };
+		D2E9B4002870781100A0ABFB /* MarkdownQueries in Frameworks */ = {isa = PBXBuildFile; productRef = D2E9B3FF2870781100A0ABFB /* MarkdownQueries */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +56,6 @@
 		D2E9B3A4287071F400A0ABFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E9B3A6287071F400A0ABFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D2E9B3A8287071F400A0ABFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2E9B3AB287071F400A0ABFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2E9B3AD287071F400A0ABFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2E9B3B0287071F500A0ABFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2E9B3B2287071F500A0ABFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +64,21 @@
 		D2E9B3C1287071F500A0ABFB /* AtomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E9B3C5287071F500A0ABFB /* AtomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomUITests.swift; sourceTree = "<group>"; };
 		D2E9B3C7287071F500A0ABFB /* AtomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2E9B3D5287074F800A0ABFB /* ThemePickerPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemePickerPreviewCell.swift; sourceTree = "<group>"; };
+		D2E9B3D6287074F800A0ABFB /* ThemePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemePickerViewController.swift; sourceTree = "<group>"; };
+		D2E9B3D8287074F800A0ABFB /* ThemeSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeSetting.swift; sourceTree = "<group>"; };
+		D2E9B3D9287074F800A0ABFB /* CodeSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeSample.swift; sourceTree = "<group>"; };
+		D2E9B3DA287074F800A0ABFB /* TextView+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextView+Helpers.swift"; sourceTree = "<group>"; };
+		D2E9B3DB287074F800A0ABFB /* BasicCharacterPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCharacterPair.swift; sourceTree = "<group>"; };
+		D2E9B3DC287074F800A0ABFB /* UserDefaults+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Helpers.swift"; sourceTree = "<group>"; };
+		D2E9B3DE287074F800A0ABFB /* MarkDownTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkDownTheme.swift; sourceTree = "<group>"; };
+		D2E9B3E0287074F800A0ABFB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D2E9B3E1287074F800A0ABFB /* KeyboardToolsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardToolsView.swift; sourceTree = "<group>"; };
+		D2E9B3E2287074F800A0ABFB /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D2E9B3F4287075B500A0ABFB /* HighlightName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightName.swift; sourceTree = "<group>"; };
+		D2E9B3F5287075B800A0ABFB /* EditorTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorTheme.swift; sourceTree = "<group>"; };
+		D2E9B3FA2870769700A0ABFB /* MarkdownQueries */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MarkdownQueries; sourceTree = "<group>"; };
+		D2E9B3FC287077AD00A0ABFB /* TreeSitterLanguage+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TreeSitterLanguage+Helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E9B4002870781100A0ABFB /* MarkdownQueries in Frameworks */,
+				D2E9B3F32870757600A0ABFB /* TreeSitterMarkdown in Frameworks */,
+				D2E9B3F02870754F00A0ABFB /* Runestone in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +116,7 @@
 				D2E9B3BA287071F500A0ABFB /* AtomTests */,
 				D2E9B3C4287071F500A0ABFB /* AtomUITests */,
 				D2E9B3A2287071F400A0ABFB /* Products */,
+				D2E9B3FE2870781100A0ABFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +133,16 @@
 		D2E9B3A3287071F400A0ABFB /* Atom */ = {
 			isa = PBXGroup;
 			children = (
+				D2E9B3F8287075D200A0ABFB /* Language */,
+				D2E9B3D7287074F800A0ABFB /* Library */,
+				D2E9B3DF287074F800A0ABFB /* Main */,
+				D2E9B3D4287074F800A0ABFB /* ThemePicker */,
+				D2E9B3DD287074F800A0ABFB /* Themes */,
+				D2E9B3AF287071F500A0ABFB /* LaunchScreen.storyboard */,
 				D2E9B3A4287071F400A0ABFB /* AppDelegate.swift */,
 				D2E9B3A6287071F400A0ABFB /* SceneDelegate.swift */,
 				D2E9B3A8287071F400A0ABFB /* ViewController.swift */,
-				D2E9B3AA287071F400A0ABFB /* Main.storyboard */,
 				D2E9B3AD287071F400A0ABFB /* Assets.xcassets */,
-				D2E9B3AF287071F500A0ABFB /* LaunchScreen.storyboard */,
 				D2E9B3B2287071F500A0ABFB /* Info.plist */,
 			);
 			path = Atom;
@@ -127,6 +165,79 @@
 			path = AtomUITests;
 			sourceTree = "<group>";
 		};
+		D2E9B3D4287074F800A0ABFB /* ThemePicker */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9B3D5287074F800A0ABFB /* ThemePickerPreviewCell.swift */,
+				D2E9B3D6287074F800A0ABFB /* ThemePickerViewController.swift */,
+			);
+			path = ThemePicker;
+			sourceTree = "<group>";
+		};
+		D2E9B3D7287074F800A0ABFB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9B3D8287074F800A0ABFB /* ThemeSetting.swift */,
+				D2E9B3D9287074F800A0ABFB /* CodeSample.swift */,
+				D2E9B3DA287074F800A0ABFB /* TextView+Helpers.swift */,
+				D2E9B3DB287074F800A0ABFB /* BasicCharacterPair.swift */,
+				D2E9B3DC287074F800A0ABFB /* UserDefaults+Helpers.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		D2E9B3DD287074F800A0ABFB /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9B3F5287075B800A0ABFB /* EditorTheme.swift */,
+				D2E9B3F4287075B500A0ABFB /* HighlightName.swift */,
+				D2E9B3DE287074F800A0ABFB /* MarkDownTheme.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		D2E9B3DF287074F800A0ABFB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9B3E0287074F800A0ABFB /* MainViewController.swift */,
+				D2E9B3E1287074F800A0ABFB /* KeyboardToolsView.swift */,
+				D2E9B3E2287074F800A0ABFB /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D2E9B3F8287075D200A0ABFB /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9B3F9287075DD00A0ABFB /* Markdown */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		D2E9B3F9287075DD00A0ABFB /* Markdown */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9B3FB2870777C00A0ABFB /* Markdown+RuneStone */,
+				D2E9B3FA2870769700A0ABFB /* MarkdownQueries */,
+			);
+			path = Markdown;
+			sourceTree = "<group>";
+		};
+		D2E9B3FB2870777C00A0ABFB /* Markdown+RuneStone */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9B3FC287077AD00A0ABFB /* TreeSitterLanguage+Helpers.swift */,
+			);
+			path = "Markdown+RuneStone";
+			sourceTree = "<group>";
+		};
+		D2E9B3FE2870781100A0ABFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +254,11 @@
 			dependencies = (
 			);
 			name = Atom;
+			packageProductDependencies = (
+				D2E9B3EF2870754F00A0ABFB /* Runestone */,
+				D2E9B3F22870757600A0ABFB /* TreeSitterMarkdown */,
+				D2E9B3FF2870781100A0ABFB /* MarkdownQueries */,
+			);
 			productName = Atom;
 			productReference = D2E9B3A1287071F400A0ABFB /* Atom.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +331,10 @@
 				Base,
 			);
 			mainGroup = D2E9B398287071F400A0ABFB;
+			packageReferences = (
+				D2E9B3EE2870754F00A0ABFB /* XCRemoteSwiftPackageReference "Runestone" */,
+				D2E9B3F12870757600A0ABFB /* XCRemoteSwiftPackageReference "TreeSitterLanguages" */,
+			);
 			productRefGroup = D2E9B3A2287071F400A0ABFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +353,6 @@
 			files = (
 				D2E9B3B1287071F500A0ABFB /* LaunchScreen.storyboard in Resources */,
 				D2E9B3AE287071F400A0ABFB /* Assets.xcassets in Resources */,
-				D2E9B3AC287071F400A0ABFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +377,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E9B3EC287074F800A0ABFB /* KeyboardToolsView.swift in Sources */,
+				D2E9B3ED287074F800A0ABFB /* MainView.swift in Sources */,
+				D2E9B3E6287074F800A0ABFB /* CodeSample.swift in Sources */,
 				D2E9B3A9287071F400A0ABFB /* ViewController.swift in Sources */,
+				D2E9B3EA287074F800A0ABFB /* MarkDownTheme.swift in Sources */,
+				D2E9B3EB287074F800A0ABFB /* MainViewController.swift in Sources */,
+				D2E9B3F7287075B900A0ABFB /* EditorTheme.swift in Sources */,
 				D2E9B3A5287071F400A0ABFB /* AppDelegate.swift in Sources */,
+				D2E9B3E5287074F800A0ABFB /* ThemeSetting.swift in Sources */,
+				D2E9B3E8287074F800A0ABFB /* BasicCharacterPair.swift in Sources */,
+				D2E9B3E3287074F800A0ABFB /* ThemePickerPreviewCell.swift in Sources */,
+				D2E9B3FD287077AD00A0ABFB /* TreeSitterLanguage+Helpers.swift in Sources */,
+				D2E9B3E9287074F800A0ABFB /* UserDefaults+Helpers.swift in Sources */,
 				D2E9B3A7287071F400A0ABFB /* SceneDelegate.swift in Sources */,
+				D2E9B3F6287075B900A0ABFB /* HighlightName.swift in Sources */,
+				D2E9B3E4287074F800A0ABFB /* ThemePickerViewController.swift in Sources */,
+				D2E9B3E7287074F800A0ABFB /* TextView+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +430,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D2E9B3AA287071F400A0ABFB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2E9B3AB287071F400A0ABFB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D2E9B3AF287071F500A0ABFB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +567,9 @@
 				INFOPLIST_FILE = Atom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,9 +595,9 @@
 				INFOPLIST_FILE = Atom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -602,6 +727,42 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D2E9B3EE2870754F00A0ABFB /* XCRemoteSwiftPackageReference "Runestone" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simonbs/Runestone";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+		D2E9B3F12870757600A0ABFB /* XCRemoteSwiftPackageReference "TreeSitterLanguages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simonbs/TreeSitterLanguages";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D2E9B3EF2870754F00A0ABFB /* Runestone */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2E9B3EE2870754F00A0ABFB /* XCRemoteSwiftPackageReference "Runestone" */;
+			productName = Runestone;
+		};
+		D2E9B3F22870757600A0ABFB /* TreeSitterMarkdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2E9B3F12870757600A0ABFB /* XCRemoteSwiftPackageReference "TreeSitterLanguages" */;
+			productName = TreeSitterMarkdown;
+		};
+		D2E9B3FF2870781100A0ABFB /* MarkdownQueries */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarkdownQueries;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D2E9B399287071F400A0ABFB /* Project object */;
 }
